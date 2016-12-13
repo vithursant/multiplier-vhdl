@@ -1,0 +1,114 @@
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_UCF.ucf -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf -ucf Multiplier_UCF.ucf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_UCF.ucf -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf -ucf Multiplier_UCF.ucf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_UCF.ucf -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf -ucf Multiplier_UCF.ucf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_UCF.ucf -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf -ucf Multiplier_UCF.ucf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_UCF.ucf -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf -ucf Multiplier_UCF.ucf 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Multiplier_UCF.ucf -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf -ucf Multiplier_UCF.ucf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml Multiplier_VHDL.twx Multiplier_VHDL.ncd -o Multiplier_VHDL.twr Multiplier_VHDL.pcf 
+bitgen -intstyle ise -f Multiplier_VHDL.ut Multiplier_VHDL.ncd 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+par -w -intstyle ise -ol high -mt off Multiplier_VHDL_map.ncd Multiplier_VHDL.ncd Multiplier_VHDL.pcf 
+xst -intstyle ise -ifn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/vthangar/Documents/Multiplier/Multiplier/Multiplier_VHDL.syr" 
+xst -intstyle ise -ifn "C:/Users/Vithursan/Downloads/Multiplier/Multiplier_VHDL.xst" -ofn "C:/Users/Vithursan/Downloads/Multiplier/Multiplier_VHDL.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 Multiplier_VHDL.ngc Multiplier_VHDL.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o Multiplier_VHDL_map.ncd Multiplier_VHDL.ngd Multiplier_VHDL.pcf 

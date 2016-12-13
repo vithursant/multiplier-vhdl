@@ -1,0 +1,28 @@
+Command line:
+   Multiplier_VHDL_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  56897
+
+Sun Jan 31 21:23:55 2016
+
+
+ Elaboration Time: 0.078 sec
+
+ Current Memory Usage: 1475 Meg
+
+ Total Signals          : 8
+ Total Nets             : 21
+ Total Signal Drivers   : 3
+ Total Blocks           : 5
+ Total Primitive Blocks : 5
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 522
+
+ Total Simulation Time: 0.078 sec
+
+ Current Memory Usage: 1475 Meg
+
+Sun Jan 31 21:24:04 2016
+

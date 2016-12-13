@@ -1,0 +1,448 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.22 secs
+ 
+--> Reading design: Multiplier_VHDL.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Multiplier_VHDL.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Multiplier_VHDL"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : Multiplier_VHDL
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "C:\Users\Vithursan\Downloads\Multiplier\Multiplier_VHDL.vhd" into library work
+Parsing entity <Multiplier_VHDL>.
+Parsing architecture <Behavioral> of entity <multiplier_vhdl>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Multiplier_VHDL> (architecture <Behavioral>) from library <work>.
+WARNING:HDLCompiler:92 - "C:\Users\Vithursan\Downloads\Multiplier\Multiplier_VHDL.vhd" Line 68: b should be on the sensitivity list of the process
+WARNING:HDLCompiler:92 - "C:\Users\Vithursan\Downloads\Multiplier\Multiplier_VHDL.vhd" Line 71: a should be on the sensitivity list of the process
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Multiplier_VHDL>.
+    Related source file is "C:\Users\Vithursan\Downloads\Multiplier\Multiplier_VHDL.vhd".
+    Found 2-bit register for signal <present_state>.
+    Found finite state machine <FSM_0> for signal <present_state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Reset              | reset (positive)                               |
+    | Reset type         | synchronous                                    |
+    | Reset State        | state0                                         |
+    | Power Up State     | state0                                         |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 5-bit adder for signal <GND_6_o_GND_6_o_add_2_OUT> created at line 71.
+    Found 5-bit adder for signal <GND_6_o_GND_6_o_add_3_OUT> created at line 71.
+    Found 5-bit adder for signal <GND_6_o_GND_6_o_add_4_OUT> created at line 71.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<6>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<5>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<4>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <c<7>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   3 Adder/Subtractor(s).
+	inferred   8 Latch(s).
+	inferred  27 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <Multiplier_VHDL> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 5-bit adder                                           : 3
+# Latches                                              : 8
+ 1-bit latch                                           : 8
+# Multiplexers                                         : 27
+ 1-bit 2-to-1 multiplexer                              : 27
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 3
+ 5-bit adder                                           : 3
+# Multiplexers                                         : 27
+ 1-bit 2-to-1 multiplexer                              : 27
+# FSMs                                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <present_state[1:2]> with user encoding.
+--------------------
+ State  | Encoding
+--------------------
+ state0 | 00
+ state1 | 01
+ state2 | 10
+--------------------
+
+Optimizing unit <Multiplier_VHDL> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Multiplier_VHDL, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 2
+ Flip-Flops                                            : 2
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Multiplier_VHDL.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 30
+#      LUT2                        : 1
+#      LUT3                        : 6
+#      LUT4                        : 6
+#      LUT5                        : 7
+#      LUT6                        : 9
+#      MUXF7                       : 1
+# FlipFlops/Latches                : 10
+#      FDR                         : 2
+#      LD                          : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               2  out of  18224     0%  
+ Number of Slice LUTs:                   29  out of   9112     0%  
+    Number used as Logic:                29  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     30
+   Number with an unused Flip Flop:      28  out of     30    93%  
+   Number with an unused LUT:             1  out of     30     3%  
+   Number of fully used LUT-FF pairs:     1  out of     30     3%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    232     8%  
+    IOB Flip Flops/Latches:               8
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------------------------------------------------------+------------------------+-------+
+Clock Signal                                                                       | Clock buffer(FF name)  | Load  |
+-----------------------------------------------------------------------------------+------------------------+-------+
+present_state[1]_PWR_7_o_Mux_8_o(present_state_present_state[1]_PWR_7_o_Mux_8_o1:O)| NONE(*)(c_0)           | 8     |
+clk                                                                                | BUFGP                  | 2     |
+-----------------------------------------------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 1.611ns (Maximum Frequency: 620.752MHz)
+   Minimum input arrival time before clock: 8.337ns
+   Maximum output required time after clock: 3.648ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'clk'
+  Clock period: 1.611ns (frequency: 620.752MHz)
+  Total number of paths / destination ports: 3 / 2
+-------------------------------------------------------------------------
+Delay:               1.611ns (Levels of Logic = 1)
+  Source:            present_state_FSM_FFd1 (FF)
+  Destination:       present_state_FSM_FFd2 (FF)
+  Source Clock:      clk rising
+  Destination Clock: clk rising
+
+  Data Path: present_state_FSM_FFd1 to present_state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             10   0.447   0.857  present_state_FSM_FFd1 (present_state_FSM_FFd1)
+     LUT3:I2->O            1   0.205   0.000  present_state_FSM_FFd2-In1 (present_state_FSM_FFd2-In)
+     FDR:D                     0.102          present_state_FSM_FFd2
+    ----------------------------------------
+    Total                      1.611ns (0.754ns logic, 0.857ns route)
+                                       (46.8% logic, 53.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'present_state[1]_PWR_7_o_Mux_8_o'
+  Total number of paths / destination ports: 665 / 8
+-------------------------------------------------------------------------
+Offset:              8.337ns (Levels of Logic = 8)
+  Source:            a<2> (PAD)
+  Destination:       c_6 (LATCH)
+  Destination Clock: present_state[1]_PWR_7_o_Mux_8_o falling
+
+  Data Path: a<2> to c_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            10   1.222   1.085  a_2_IBUF (a_2_IBUF)
+     LUT3:I0->O            2   0.205   0.981  Madd_GND_6_o_GND_6_o_add_2_OUT_lut<2>1 (Madd_GND_6_o_GND_6_o_add_2_OUT_lut<2>)
+     LUT6:I0->O            5   0.203   0.962  Madd_GND_6_o_GND_6_o_add_2_OUT_cy<2>11 (Madd_GND_6_o_GND_6_o_add_2_OUT_cy<2>)
+     LUT6:I2->O            1   0.203   0.000  Madd_GND_6_o_GND_6_o_add_3_OUT_cy<2>11_G (N10)
+     MUXF7:I1->O           2   0.140   0.864  Madd_GND_6_o_GND_6_o_add_3_OUT_cy<2>11 (Madd_GND_6_o_GND_6_o_add_3_OUT_cy<2>)
+     LUT5:I1->O            2   0.203   0.961  Mmux_GND_6_o_GND_6_o_MUX_14_o11 (GND_6_o_GND_6_o_MUX_14_o)
+     LUT6:I1->O            2   0.203   0.864  Madd_GND_6_o_GND_6_o_add_4_OUT_cy<2>11 (Madd_GND_6_o_GND_6_o_add_4_OUT_cy<2>)
+     LUT6:I2->O            1   0.203   0.000  Mmux_present_state[1]_X_6_o_Mux_9_o11 (present_state[1]_X_6_o_Mux_9_o)
+     LD:D                      0.037          c_6
+    ----------------------------------------
+    Total                      8.337ns (2.619ns logic, 5.718ns route)
+                                       (31.4% logic, 68.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
+  Total number of paths / destination ports: 3 / 3
+-------------------------------------------------------------------------
+Offset:              2.337ns (Levels of Logic = 2)
+  Source:            start (PAD)
+  Destination:       present_state_FSM_FFd2 (FF)
+  Destination Clock: clk rising
+
+  Data Path: start to present_state_FSM_FFd2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.808  start_IBUF (start_IBUF)
+     LUT3:I0->O            1   0.205   0.000  present_state_FSM_FFd2-In1 (present_state_FSM_FFd2-In)
+     FDR:D                     0.102          present_state_FSM_FFd2
+    ----------------------------------------
+    Total                      2.337ns (1.529ns logic, 0.808ns route)
+                                       (65.4% logic, 34.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'present_state[1]_PWR_7_o_Mux_8_o'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              3.648ns (Levels of Logic = 1)
+  Source:            c_7 (LATCH)
+  Destination:       c<7> (PAD)
+  Source Clock:      present_state[1]_PWR_7_o_Mux_8_o falling
+
+  Data Path: c_7 to c<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               1   0.498   0.579  c_7 (c_7)
+     OBUF:I->O                 2.571          c_7_OBUF (c<7>)
+    ----------------------------------------
+    Total                      3.648ns (3.069ns logic, 0.579ns route)
+                                       (84.1% logic, 15.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |    1.611|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock present_state[1]_PWR_7_o_Mux_8_o
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+clk            |         |         |    1.908|         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.43 secs
+ 
+--> 
+
+Total memory usage is 290596 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+
